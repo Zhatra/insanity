@@ -1,0 +1,15 @@
+plugin
+custom
+spell
+ftplugin
+syntax
+coc-settings.json
+.luarc.json
+lazy-lock.json
+after
+tags
+en.utf-8.add.spl
+*.exe
+.netrwhist
+*.log
+.DS_Store
