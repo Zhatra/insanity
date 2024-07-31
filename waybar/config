@@ -1,11 +1,11 @@
 {
-    "height": 25, // Waybar height (to be removed for auto height)
-    "layer": "top", // Waybar at top layer
+    "height": 25, 
+    "layer": "top", 
     "margin-top": 0,
     "margin-left": 0,
     "margin-bottom": 0,
     "margin-right": 0,
-    "spacing": 5, // Gaps between modules (4px)
+    "spacing": 5,
     "modules-left": ["custom/launcher", "cpu", "memory", "hyprland/workspaces", "custom/weather"],
     "modules-center": ["custom/spotify"],
     "modules-right": ["tray", "backlight", "pulseaudio", "network", "battery","battery#bat2", "clock", "custom/power-menu"],
@@ -30,35 +30,35 @@
         "spacing": 10
     },
    "clock": {
-        "format": "<span color='#ffffff'> </span>{:%a %b %d}",
-        "format-alt": "<span color='#ffffff'> </span>{:%I:%M %p}",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "<span color='#ffffff'> </span>{:%I:%M %p}",
+        "format-alt": "<span color='#ffffff'> </span>{:%a %b %d}",
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
     "cpu": {
       "interval": 10,
       "format": " {}%",
       "max-length": 10,
-      "on-click": "",
+      "on-click": ""
     },
     "memory": {
         "interval": 30,
         "format": " {}%",
         "format-alt":" {used:0.1f}G",
-        "max-length": 10,
+        "max-length": 10
     },
     "backlight": {
         "device": "DP-1",
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
-        "on-click": "",
+        "on-click": ""
     },
     "network": {
         "format-wifi": "直 {signalStrength}%",
         "format-ethernet": " wired",
         "format-disconnected": "睊",
         "on-click": "bash ~/.config/waybar/scripts/rofi-wifi-menu.sh",
-        "format-disconnected": "Disconnected  ",
+        "format-disconnected": "Disconnected  "
     },
 
     "pulseaudio": {
@@ -80,7 +80,7 @@
 
     "bluetooth": {
         "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
-        "format": " {status}",
+        "format": " {status}"
     },
 
     "battery": {
@@ -96,7 +96,7 @@
       "format-plugged": "  {capacity}%",
       "format-alt": "{icon}{time}",
       "format-full": " {capacity}%",
-      "format-icons": [" ", " ", " ", " ", " "],
+      "format-icons": [" ", " ", " ", " ", " "]
     },
 	"battery#bat2":{
 		"bat":"BAT2"
@@ -114,14 +114,14 @@
     "return-type": "json",
     "on-click": "playerctl play-pause",
     "on-double-click-right": "playerctl next",
-    "on-scroll-down": "playerctl previous",
+    "on-scroll-down": "playerctl previous"
     },
     "custom/power-menu": {
         "format": " <span color='#ffffff'>⏻ </span>",
-        "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
+        "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh"
     },
     "custom/launcher": {
         "format": " <span color='#ffffff'> </span>",
-        "on-click": "rofi -show drun",
-    },
+        "on-click": "rofi -show drun"
+    }
 }
