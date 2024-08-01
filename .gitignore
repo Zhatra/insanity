@@ -19,3 +19,5 @@
 !colorls/**
 !waybar/
 !waybar/**
+!dunst/
+!dunst/**
