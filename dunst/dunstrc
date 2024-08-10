@@ -192,6 +192,7 @@
 	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	script = ~/.config/dunst/scripts/bat-notify.sh
 
+
 	timeout = 6
 	background = "#0d0f16"
 	foreground = "#CDD6F4"

@@ -32,7 +32,9 @@
    "clock": {
         "format": "<span color='#ffffff'> </span>{:%I:%M %p}",
         "format-alt": "<span color='#ffffff'> </span>{:%a %b %d}",
-        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
+        "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+        "on-click": "xdg-open https://calendar.google.com"
+
     },
 
     "cpu": {
