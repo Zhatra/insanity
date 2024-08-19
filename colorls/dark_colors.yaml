@@ -1,8 +1,8 @@
 # Main Colors
 unrecognized_file: white
-recognized_file:   '#1AFF00'
-executable_file:   lime
-dir:               "#7741ff"
+recognized_file:   '#a9a9a9'
+executable_file:   '#d3a87c'
+dir:               "#f0f0f0"
 
 # Link
 dead_link: red
